@@ -1,4 +1,5 @@
 import * as React from "react";
+import SearchBar from "../components/SearchBar";
 import "../styles/App.scss";
 
 class App extends React.Component {
@@ -6,6 +7,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Cine project</h1>
+        <SearchBar/>
       </div>
     );
   }
